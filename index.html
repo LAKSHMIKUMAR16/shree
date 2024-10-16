@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frosty Delights Ice Cream Parlour</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    body {
+      background: linear-gradient(to bottom right, #ffecd2, #fcb69f);
+      color: #333;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .header-section {
+      background: linear-gradient(to bottom right, #fa709a, #fee140);
+      padding: 100px 0;
+      text-align: center;
+      color: #fff;
+      border-bottom: 4px solid #fcb69f;
+    }
+
+    .header-section h1 {
+      font-size: 4rem;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+
+    .header-section p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+      font-weight: 300;
+    }
+
+    .header-section .btn {
+      margin-top: 30px;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      border-radius: 30px;
+      background-color: #ff758c;
+      color: white;
+      border: none;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    .header-section .btn:hover {
+      background-color: #ff927f;
+    }
+
+    .flavors-section {
+      padding: 60px 0;
+      background-color: #fef9e7;
+    }
+
+    .flavors-section h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #f37272;
+    }
+
+    .flavors-section .flavor-card {
+      text-align: center;
+      background: linear-gradient(135deg, #fad0c4, #ffd1ff);
+      padding: 20px;
+      border-radius: 15px;
+      transition: transform 0.3s ease;
+    }
+
+    .flavors-section .flavor-card i {
+      font-size: 3rem;
+      color: #ff758c;
+      margin-bottom: 20px;
+    }
+
+    .flavors-section .flavor-card h5 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      font-weight: 600;
+      color: #f26464;
+    }
+
+    .flavors-section .flavor-card:hover {
+      transform: scale(1.05);
+    }
+
+    .testimonials-section {
+      background-color: #fff;
+      padding: 50px 0;
+    }
+
+    .testimonials-section h2 {
+      color: #f37272;
+    }
+
+    .testimonials-section .testimonial-card {
+      padding: 20px;
+      background: #fce3ec;
+      border-radius: 15px;
+      border: 1px solid #ff927f;
+    }
+
+    .testimonials-section .testimonial-card p {
+      font-size: 1rem;
+      font-style: italic;
+      color: #666;
+    }
+
+    .testimonials-section .testimonial-card strong {
+      display: block;
+      margin-top: 10px;
+      font-size: 1.1rem;
+      color: #ff758c;
+    }
+
+    .footer {
+      background-color: #f8b195;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header Section -->
+  <section class="header-section">
+    <div class="container">
+      <h1>Frosty Delights</h1>
+      <p>Chill out with our irresistible ice cream treats!</p>
+      <a href="#flavors" class="btn">Discover Flavors</a>
+    </div>
+  </section>
+
+  <!-- Flavors Section -->
+  <section id="flavors" class="flavors-section">
+    <div class="container">
+      <h2>Our Signature Flavors</h2>
+      <div class="row text-center">
+        <div class="col-md-4 mb-4">
+          <div class="flavor-card p-4">
+            <i class="fas fa-ice-cream"></i>
+            <h5>Vanilla Dream</h5>
+            <p>A smooth and rich vanilla experience with a touch of magic.</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="flavor-card p-4">
+            <i class="fas fa-candy-cane"></i>
+            <h5>Chocolate Heaven</h5>
+            <p>Deep, decadent chocolate that melts in your mouth.</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="flavor-card p-4">
+            <i class="fas fa-strawberry"></i>
+            <h5>Berry Blast</h5>
+            <p>Fresh, fruity, and filled with juicy strawberries.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials-section">
+    <div class="container">
+      <h2 class="text-center mb-5">What Our Fans Say</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="testimonial-card p-4">
+            <p>"The vanilla flavor is out of this world! I've never had anything so smooth."</p>
+            <strong>- Emma W.</strong>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial-card p-4">
+            <p>"Chocolate Heaven is my go-to flavor. Rich and creamy, it's absolutely perfect."</p>
+            <strong>- John D.</strong>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial-card p-4">
+            <p>"Berry Blast is refreshing and delicious. I love the fresh fruit flavor."</p>
+            <strong>- Sophie M.</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <p>&copy; 2024 Frosty Delights. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
